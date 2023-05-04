@@ -1,0 +1,92 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: 'SF Pro Display', sans-serif;
+    
+
+}
+
+body{
+
+    background-color: #000000;
+    height: 100vh;
+
+}
+
+.container{
+    width:1265px;
+    margin:0 auto;
+    height:100%;
+    background-color: black;
+    display:flex;
+}
+ 
+.sidebar{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  border-right:1px solid #2F3336;
+  padding:20px;
+}
+
+.sidebar-head{
+    color:white;
+    font-weight:700;
+    font-size:19px;
+}
+
+.side-bar-menu{
+    margin:10px 20px;
+    padding:15px 0px;
+
+}
+
+.side-bar-menu > ul{
+    list-style-type: none;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    margin-bottom: 30px;
+
+}
+
+.side-bar-menu > ul > li{
+    display:flex;
+    gap:24px;
+
+}
+
+.twitter-button:focus,.twitter-button{
+    outline:none;
+    border: none;
+    font-size:17px;
+    font-weight:500;
+    background-color: #1D9BF0;
+    color:white;
+    border-radius:32px;
+    padding:17px 80px;
+    cursor: pointer;
+
+}
+
+.profile{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:white;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+
+.profile-detail{
+    display:flex;
+    justify-content:flex-start;
+    flex-direction:column;
+}
+
+
+.profile-username{
+    font-weight:bold;
+    color:#6E767D;
+}
